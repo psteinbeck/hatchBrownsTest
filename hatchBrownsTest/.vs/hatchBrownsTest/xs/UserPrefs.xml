@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{89058B35-4BBE-42FF-82FD-8E9B327F87B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.hatchBrownsTest.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/App.xaml">
+    <Files>
+      <File FileName="hatchBrownsTest.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/App.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hatchBrownsTest" expanded="True">
+            <Node name="hatchBrownsTest" expanded="True">
+              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="hatchBrownsTest.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="hatchBrownsTest.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.hatchBrownsTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.75ED56BF-D0AA-4E71-8432-DF300A647FE0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

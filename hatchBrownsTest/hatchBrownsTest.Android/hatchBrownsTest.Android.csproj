@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\hatchBrownsTest\hatchBrownsTest.csproj">
-      <Project>{457F4791-5DB1-41E7-B045-4107A46F36C5}</Project>
+      <Project>{E412387D-42D1-4573-815A-0CA570128F43}</Project>
       <Name>hatchBrownsTest</Name>
     </ProjectReference>
   </ItemGroup>
