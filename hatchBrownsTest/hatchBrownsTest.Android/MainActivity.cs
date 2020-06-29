@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -12,6 +11,7 @@ namespace hatchBrownsTest.Droid
     [Activity(Label = "hatchBrownsTest", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -24,9 +24,20 @@ namespace hatchBrownsTest.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+
+        public static MainActivity Current { get; private set; }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[]
+            permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode,
+                permissions, grantResults);
+            if (requestCode == 33)
+            {
+                var importer = (PhotoImporter)Resolver.Resolve<IPhotoImporter>();
+                importer.ContinueWithPermission(grantResults[0] ==
+                    Permission.Granted);
+            }
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }

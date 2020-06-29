@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "19sHvRCXFdU7kA9Qi01hlBH01QP8a/IOdtji30OACt2lDOg2iOhOBLfe8zVIFGcydeQBDOH2yC0dxHpCuR4eyA==",
+  "dgSpecHash": "A3Z1z8halVZayKhi682nwFcpYOt3lc7Tb6kZaMoUUDw2RXhKYai5v52ny5c1dBDLdkZfCiOI/xJuANvKbyNc9A==",
   "success": true,
   "projectFilePath": "/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/hatchBrownsTest.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "/Users/SirCharles/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/SirCharles/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
-    "/Users/SirCharles/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
+    "/Users/SirCharles/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/SirCharles/.nuget/packages/xamarin.forms/4.7.0.968/xamarin.forms.4.7.0.968.nupkg.sha512"
   ],
   "logs": []
 }

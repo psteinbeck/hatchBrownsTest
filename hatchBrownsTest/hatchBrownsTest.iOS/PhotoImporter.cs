@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Generic;
 using Foundation;
 
+
 namespace hatchBrownsTest.iOS
 {
     public class PhotoImporter : IPhotoImporter
@@ -22,7 +23,7 @@ namespace hatchBrownsTest.iOS
 
             return true;
         }
-
+        /*
         Task<ObservableCollection<Photo>> IPhotoImporter.Get(int startIndex, int count, Quality quality = Quality.Low)
         {
             throw new NotImplementedException();
@@ -32,7 +33,7 @@ namespace hatchBrownsTest.iOS
         {
             throw new NotImplementedException();
         }
-
+        */
         private void RequestImage(ObservableCollection<Photo> photos, PHAsset asset, string filename, PHImageRequestOptions options)
         {
             PHImageManager.DefaultManager.RequestImageForAsset(asset, PHImageManager.MaximumSize, PHImageContentMode.AspectFill, options, (image, info) =>
