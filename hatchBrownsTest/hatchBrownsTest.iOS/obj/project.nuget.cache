@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "atGi+2PYry8rV3mJ7ftZFFJA+2sqhKhmtpIlwzmj9wX5LH34VeYEaklsfqdkgeOehEohyWMcfxPNAyyx6eZETA==",
+  "dgSpecHash": "RizwCJvXyeTlqhFdnAnS5xhc4hDfMW8/55JTNzFloCtYG3+LECuX5dQp5FrTgIcmROrOr9vBbaOBpgKw9FxEAQ==",
   "success": true,
   "projectFilePath": "/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest.iOS/hatchBrownsTest.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/SirCharles/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"

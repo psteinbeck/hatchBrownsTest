@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uoEIjKQdDId7Z06z7Y6FTCjeTWwkpvkpIXqrdEemPtBgee2S4Grc43BMoCro0YQB/3LbXgeoGWdMVXAZougYXQ==",
+  "dgSpecHash": "RbZ9azCC17bNpPOr4tf8o7pLUrccaLES468YFnPo++P7dj5szwSN1Z3wpIA4ioAE1o9CHNrFL1UuYEd+9NX5Nw==",
   "success": true,
   "projectFilePath": "/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest.Android/hatchBrownsTest.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/SirCharles/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.android.arch.core.common/1.1.1.3/xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.android.arch.core.runtime/1.1.1.3/xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
