@@ -2,7 +2,6 @@
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/bin/Debug/netstandard2.0/hatchBrownsTest.dll
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/bin/Debug/netstandard2.0/ref/hatchBrownsTest.dll
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/bin/Debug/netstandard2.0/hatchBrownsTest.pdb
-/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/obj/Debug/netstandard2.0/hatchBrownsTest.csprojAssemblyReference.cache
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
 /Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs

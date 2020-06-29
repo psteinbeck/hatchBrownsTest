@@ -207,3 +207,5 @@
 -r=/Users/SirCharles/.nuget/packages/xamarin.forms/4.5.0.495/build/XCODE11/Xamarin.Forms.Platform.iOS.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest.iOS/bin/iPhoneSimulator/Debug/hatchBrownsTest.iOS.exe
+-v
+-v

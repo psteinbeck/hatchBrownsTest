@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{89058B35-4BBE-42FF-82FD-8E9B327F87B5}|Default">
   <MonoDevelop.Ide.ItemProperties.hatchBrownsTest.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/imageProcessor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/IPhotoImporter.cs">
     <Files>
-      <File FileName="hatchBrownsTest/AppShell.xaml" Line="1" Column="1" />
-      <File FileName="hatchBrownsTest/imageProcessor.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest.Android/PhotoImporter.cs" Line="2" Column="18" />
+      <File FileName="hatchBrownsTest/PhotoImporter.cs" Line="15" Column="13" />
+      <File FileName="hatchBrownsTest.iOS/PhotoImporter.cs" Line="44" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="hatchBrownsTest" expanded="True">
             <Node name="hatchBrownsTest" expanded="True">
-              <Node name="imageProcessor.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="IPhotoImporter.cs" selected="True" />
             </Node>
             <Node name="hatchBrownsTest.Android" expanded="True" />
             <Node name="hatchBrownsTest.iOS" expanded="True" />
