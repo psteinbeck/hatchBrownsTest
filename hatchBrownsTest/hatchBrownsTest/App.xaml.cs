@@ -14,7 +14,8 @@ namespace hatchBrownsTest
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //Original: MainPage = new AppShell();
+            MainPage = new MainShell();
         }
 
         protected override void OnStart()
