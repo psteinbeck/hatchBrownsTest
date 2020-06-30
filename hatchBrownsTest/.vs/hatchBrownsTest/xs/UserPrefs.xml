@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{89058B35-4BBE-42FF-82FD-8E9B327F87B5}|Default">
   <MonoDevelop.Ide.ItemProperties.hatchBrownsTest.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/ViewModels/ItemDetailViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/ViewModels/ViewModel.cs">
     <Files>
       <File FileName="hatchBrownsTest/MainShell.xaml" Line="12" Column="1" />
       <File FileName="hatchBrownsTest/MainShell.xaml.cs" Line="5" Column="1" />
       <File FileName="hatchBrownsTest/App.xaml.cs" Line="21" Column="17" />
       <File FileName="hatchBrownsTest/AppShell.xaml.cs" Line="1" Column="1" />
       <File FileName="hatchBrownsTest/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
-      <File FileName="hatchBrownsTest/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/ViewModels/ItemDetailViewModel.cs" Line="11" Column="10" />
+      <File FileName="hatchBrownsTest/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/ViewModels/ViewModel.cs" Line="5" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +20,7 @@
                 <Node name="AssemblyDependencies" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="ViewModels" expanded="True">
-                <Node name="ItemDetailViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
               <Node name="MainShell.xaml" expanded="True" />
             </Node>
