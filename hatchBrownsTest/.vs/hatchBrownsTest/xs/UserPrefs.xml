@@ -1,31 +1,33 @@
 ﻿<Properties StartupConfiguration="{89058B35-4BBE-42FF-82FD-8E9B327F87B5}|Default">
   <MonoDevelop.Ide.ItemProperties.hatchBrownsTest.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/ViewModels/ViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hatchBrownsTest/IPhotoImporter.cs">
     <Files>
-      <File FileName="hatchBrownsTest/MainShell.xaml" Line="12" Column="1" />
-      <File FileName="hatchBrownsTest/MainShell.xaml.cs" Line="5" Column="1" />
-      <File FileName="hatchBrownsTest/App.xaml.cs" Line="21" Column="17" />
-      <File FileName="hatchBrownsTest/AppShell.xaml.cs" Line="1" Column="1" />
-      <File FileName="hatchBrownsTest/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
-      <File FileName="hatchBrownsTest/ViewModels/ItemDetailViewModel.cs" Line="11" Column="10" />
       <File FileName="hatchBrownsTest/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
-      <File FileName="hatchBrownsTest/ViewModels/ViewModel.cs" Line="5" Column="2" />
+      <File FileName="hatchBrownsTest/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/ViewModels/ViewModel.cs" Line="3" Column="2" />
+      <File FileName="hatchBrownsTest/ViewModels/GalleryViewModel.cs" Line="22" Column="30" />
+      <File FileName="hatchBrownsTest/Converters/BytesToImageConverter.cs" Line="19" Column="9" />
+      <File FileName="hatchBrownsTest/Views/GalleryView.xaml.cs" Line="11" Column="6" />
+      <File FileName="hatchBrownsTest/Views/GalleryView.xaml" Line="27" Column="33" />
+      <File FileName="hatchBrownsTest/ILocalStorage.cs" Line="7" Column="21" />
+      <File FileName="hatchBrownsTest/MainShell.xaml" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/FormsLocalStorage.cs" Line="27" Column="23" />
+      <File FileName="hatchBrownsTest/Bootstrapper.cs" Line="33" Column="1" />
+      <File FileName="hatchBrownsTest/Models/Photo.cs" Line="1" Column="1" />
+      <File FileName="hatchBrownsTest/IPhotoImporter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="hatchBrownsTest" expanded="True">
             <Node name="hatchBrownsTest" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="AssemblyDependencies" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+              <Node name="Converters" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
+              <Node name="IPhotoImporter.cs" selected="True" />
               <Node name="MainShell.xaml" expanded="True" />
             </Node>
-            <Node name="hatchBrownsTest.Android" expanded="True" />
-            <Node name="hatchBrownsTest.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

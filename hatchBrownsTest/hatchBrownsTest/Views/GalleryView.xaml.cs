@@ -10,6 +10,8 @@ namespace hatchBrownsTest.Views
         public GalleryView()
         {
             InitializeComponent();
+            BindingContext = Resolver.Resolve<GalleryViewModel>();
         }
     }
+
 }

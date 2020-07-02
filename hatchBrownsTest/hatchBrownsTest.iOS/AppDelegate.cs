@@ -22,8 +22,13 @@ namespace hatchBrownsTest.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            //ADDED CODE BY ALLISON
+            _ = new Bootstrapper();
+            //END OF ADDED CODE
+
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             global::Xamarin.Forms.Forms.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

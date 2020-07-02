@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MkpH0uqujv7yXsuw/1nMfG5in562wXm1Pc0xNIdLB6VqQ/OoPkW+uBNEmoQCPWzpPIYlEmShNHt/sTtor/ftNQ==",
+  "dgSpecHash": "KiwsY4aQjLu4ZghGcgokJegsOlenw63PcR0YZ6VhZL4yOJeJmsJjlAv7+2yGIQmSpiTXS1ynwRVccut/a6Nh5g==",
   "success": true,
   "projectFilePath": "/Users/SirCharles/HatchBrownsTestRepo/hatchBrownsTest/hatchBrownsTest.iOS/hatchBrownsTest.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/SirCharles/.nuget/packages/autofac/5.2.0/autofac.5.2.0.nupkg.sha512",
+    "/Users/SirCharles/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/SirCharles/.nuget/packages/xamarin.forms/4.7.0.968/xamarin.forms.4.7.0.968.nupkg.sha512"

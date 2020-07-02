@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -16,7 +17,20 @@ namespace hatchBrownsTest.ViewModels
                 RaisePropertyChanged(propertyName);
             }
         }
-
-
+        protected void RaisePropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        private bool isBusy;
+        public bool IsBusy
+        {
+            get => isBusy;
+            set
+            {
+                Set(ref isBusy, value);
+                RaisePropertyChanged(nameof(IsNotBusy));
+            }
+        }
+        public bool IsNotBusy => !IsBusy;
     }
 }
